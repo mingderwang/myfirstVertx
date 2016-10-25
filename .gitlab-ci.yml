@@ -1,4 +1,7 @@
 image: maven:3-jdk-7
 
 build:
-    script: "mvn clean install -B"
+    script: "mvn clean install"
+
+maven-package:
+    script: "mvn package"
